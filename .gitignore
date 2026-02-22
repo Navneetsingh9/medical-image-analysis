@@ -1,0 +1,11 @@
+.env
+*.pyc
+__pycache__/
+temp_*.png
+temp_*.jpg
+analysis_reports/
+venv/
+.venv/
+.env.local
+.DS_Store
+*.log
