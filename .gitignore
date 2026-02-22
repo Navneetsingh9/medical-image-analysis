@@ -1,11 +1,24 @@
+# API keys and secrets
 .env
-*.pyc
+*.env
+.streamlit/secrets.toml
+
+# Python
 __pycache__/
-temp_*.png
-temp_*.jpg
-analysis_reports/
+*.pyc
 venv/
 .venv/
-.env.local
+
+# Temporary files
+temp_*.png
+temp_*.jpg
+temp_*.jpeg
+temp_upload_*
+
+# Reports (if you don't want to track them in git)
+analysis_reports/
+*.json
+
+# IDE
+.vscode/
 .DS_Store
-*.log

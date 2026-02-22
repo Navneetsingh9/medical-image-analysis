@@ -1,0 +1,4 @@
+agno
+streamlit
+Pillow
+google-generativeai
